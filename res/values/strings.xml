@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">¿En qué aula cursás?</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_send">Departamentos</string>
+    <string name="title_activity_departamentos">¿En qué aula cursás?</string>
+    <string name="title_activity_materias">Materias</string>
+    <string name="title_activity_show_details">Detalle</string>
+    <string name="fixed_footer">Desarrollo Independiente</string>
+
+</resources>

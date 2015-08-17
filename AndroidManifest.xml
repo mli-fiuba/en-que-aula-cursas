@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mlifiuba.dondecurso"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Index"
+            android:label="@string/app_name" >
+                
+        </activity>
+        <activity
+            android:name=".Departamentos"
+            android:label="@string/title_activity_departamentos" >
+            <!-- Si se quisiera cambiar el nombre del acceso directo, es la label de este intent-filter -->
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Materias"
+            android:label="@string/title_activity_materias" >
+        </activity>
+        <activity
+            android:name=".ShowDetails"
+            android:label="@string/title_activity_show_details" >
+        </activity>
+    </application>
+
+</manifest>
